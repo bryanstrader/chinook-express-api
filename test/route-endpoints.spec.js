@@ -6,7 +6,7 @@ chai.should();
 chai.use(chaiHttp);
 
 // api end point tests
-describe('api', function() {
+describe('api end points', function() {
     
     // artists end point
     describe('get artists', function() {

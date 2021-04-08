@@ -28,7 +28,6 @@ class AlbumService {
         };
 
         const f = single ? Album.findOne(filter) : Album.findAll(filter);
-
         return f.then((result) => {
             return result;
         }).catch((err) => {
